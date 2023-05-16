@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+
+@font_face {
+  font-family: 'Montserrat';
+    src: url("../assets/font/Montserrat-VariableFont_wght.ttf");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Alkatra", cursive;
+  font-family: "Nunito", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+
+
+.color_navFist  {
+  color: white;
+}
+
+#color_navLast {
+  color: green;
+}
+.div_text{
+  z-index: 3;
+  
+}
+.filterOpacity{
+  background:linear-gradient(to bottom, #0000003f,#00000070), url(../assets/img/ba1.jpg);
+
+
+}
+
+/*header*/
+
+
+
+
+
+
+
+/* ETIQUITAS CARS*/
+.tituloCardBody , .bissnes , .Sturtup{
+  display:inline-block;
+  border-radius: 5px;
+   padding: 0.1rem;
+   margin-block-start:1rem;
+   margin-block-end: 0;
+  
+
+  
+}
+.js{
+  background-color: rgb(224, 176, 18);
+  font-size: small;
+  padding:0.1rem ;
+}
+
+.react{
+  font-size: small;
+  padding:0.1rem ;
+  background-color: rgb(0, 182, 182);
+}
+
+.bissnes{
+  background-color: rgb(85, 85, 85);
+  font-size: small;
+  padding:0.1rem ;
+  color:white;
+}
+
+.sturtup{
+  background-color: rgb(182, 0, 0);
+  color:white ;
+  font-size: small;
+  padding:0.1rem ;
+}
+
+
+
+
+/* Secccion Lugar y Fecha*/
+
+.columna-izq{
+  background-image: url("../assets/img/honolulu.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh;
+}
+
+.columna-der{
+  background-color: rgb(47, 47, 47);
+  color:white;
+  height: 50vh;
+}
+
+
+
+.text_LFgrupo{
+margin-top: 10rem;
+}
+
+.columna-der .text-lugaryfecha{
+  margin-left: 1rem ;
+ width: 80%;
+ 
+
+}
+
+.columna-der a{
+  position: relative;
+  top: 1rem;
+  
+  text-decoration: none;
+  color: white;
+  
+  border: 1px solid white ; 
+  border-radius: 5px;
+  margin: 1rem;
+  padding: 0.5rem;
+}
+
+
+
+/*/FORMULARIO*/
+
+.campos_input{
+
+width:18.5rem;
+border: 0.5px solid #0000003b;
+
+}
+#tex_area{
+  border: 0.5px solid #0000003b;
+}
+
+.btn_enviar{
+  height: 2rem;
+  color: white;
+  background-color: #9bce49;
+  border: none;
+  }
+  
+
+.recordatorio{
+  
+  font-size: 10px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+/* FOOTEr*/
+.footer{
+  
+  background-color: rgb(47, 47, 47);
+  color:white;
+ 
+  height: 5vh;
+
+  
+ 
+  
+}
+
+.footer div a{
+  text-decoration: none;
+  color:white;
+
+  
+}
+
+.wsp{
+  height: 5rem;
+  width: 5rem;
+  margin: 0 1rem;
+  object-fit: cover;
+  position:fixed;
+  bottom: 3rem;
+  right: 1rem;
+  
+}
+
+
+.wsp:hover{
+ transform: scale(2);
+
+ transition: ease-out;
+ transition-delay: 0.1s;
+}
+
+
+/*///RESPONSIVE//*/
+
+
+@media screen and (max-width:567px) {
+
+.text_img{
+  font-size: 1.2rem;
+}
+.parrafo_img{
+  font-size: 0.8rem;
+}
+
+
+
+
+
+
+
+
+
+.card{
+  height: auto;
+  width: auto;
+  margin-bottom: 2rem;
+}
+
+
+.columna-izq{
+  display: none;
+}
+.columna-der{
+  width: auto;
+  background:linear-gradient(to bottom, #00000070,#00000070), url(../assets/img/honolulu.jpg);
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+}
+
+
+
+.text_LFgrupo{
+margin-top: 20%;
+
+
+}
+
+.campos_input{
+  margin-bottom: 1rem;
+}
+
+.footer{
+  font-size: 0.7rem;
+  height: 7vh;
+
+}
+
+
+
+}
