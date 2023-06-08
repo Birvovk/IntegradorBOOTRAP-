@@ -34,22 +34,25 @@ h6 {
   color: green;
 }
 .div_text{
-  z-index: 3;
+  z-index: 5;
   
 }
 .filterOpacity{
-  background:linear-gradient(to bottom, #0000003f,#00000070), url(../assets/img/ba1.jpg);
-
+  background-image: var(--bs-gradient);
+--bs-gradient:background:linear-gradient(90deg, #0000003f,#00000070,rgba(255,255,255,90)) !important;
 
 }
 
 /*header*/
 
+#prueba{
+  filter: brightness(0.6);
+  z-index: 3;
+ /* background-color:linear-gradient(#9bce49, #0000003b);*/
 
+background-color: aqua;
 
-
-
-
+}
 
 /* ETIQUITAS CARS*/
 .tituloCardBody , .bissnes , .Sturtup{
