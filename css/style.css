@@ -167,8 +167,10 @@ border: 0.5px solid #0000003b;
 }
 
 
-
-
+/*
+NO SE QUE PASA CON EL FOOTER QUE SE LE ESTA  AGRAGANDO UNA CLASE BOX-SIZING - BORDER-BOX A LA CUAL SI LA DEJO 
+ES FUNCIONAL PERO SI LA SACO, LA PISO ME DEFORMA EL FORMULARIO Y TENGO QUE MODELAR. NO SE QUE HACER 
+*/
 
 
 
@@ -182,11 +184,12 @@ border: 0.5px solid #0000003b;
   color:white;
  
   height: 5vh;
-
+  
   
  
   
 }
+
 
 .footer div a{
   text-decoration: none;
