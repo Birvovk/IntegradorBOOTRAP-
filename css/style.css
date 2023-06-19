@@ -35,6 +35,7 @@ h6 {
 }
 .div_text{
   z-index: 5;
+  width: 50%;
   
 }
 .filterOpacity{
@@ -167,14 +168,6 @@ border: 0.5px solid #0000003b;
 }
 
 
-/*
-NO SE QUE PASA CON EL FOOTER QUE SE LE ESTA  AGRAGANDO UNA CLASE BOX-SIZING - BORDER-BOX A LA CUAL SI LA DEJO 
-ES FUNCIONAL PERO SI LA SACO, LA PISO ME DEFORMA EL FORMULARIO Y TENGO QUE MODELAR. NO SE QUE HACER 
-*/
-
-
-
-
 
 
 /* FOOTEr*/
@@ -230,7 +223,11 @@ ES FUNCIONAL PERO SI LA SACO, LA PISO ME DEFORMA EL FORMULARIO Y TENGO QUE MODEL
   font-size: 0.8rem;
 }
 
-
+.div_text{
+  width: 100%;
+  text-align: center;
+  
+}
 
 .seccionFrom{
   width: 100% !important;
